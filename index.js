@@ -1,4 +1,4 @@
-let name = 'anna';
+let name = 'Привет!';
 alert(name);
 
 let myName = `${name}`;
