@@ -9,10 +9,18 @@ let cat = {
 
 cat.nicname = name;
 
-alert('Кошка ' + cat.nicname + 'породы ' + cat[paroda]);
+alert('Кошка ' + cat.nicname + ' породы ' + cat[paroda]);
+
+for(let key in cat){
+  alert(key + ": " + cat[key]);
+}
 
 delete cat.animal;
 
 cat.nicname = 'Даша';
 
 alert('Кошка ' + cat.nicname + ' породы ' + cat[paroda]);
+
+for(let key in cat){
+  alert(key + ": " + cat[key]);
+}
