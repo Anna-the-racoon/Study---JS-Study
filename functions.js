@@ -14,5 +14,5 @@ function ShowName(name){
   alert('Hello, ' + name);
 }
 
-let name = ShowName('Alex');
-name();   //copy of function
+let name = ShowName;
+name('Kevin');   //copy of function
