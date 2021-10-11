@@ -24,3 +24,16 @@ alert('Кошка ' + cat.nicname + ' породы ' + cat[paroda]);
 for(let key in cat){
   alert(key + ": " + cat[key]);
 }
+
+
+cat = {
+  say(){
+    alert('Meow');
+  }
+}
+
+for(let key in cat){
+  alert(key + ": " + cat[key]);
+}
+
+cat.say();
